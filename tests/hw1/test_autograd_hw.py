@@ -1,12 +1,8 @@
-import sys
-
-# sys.path.append("./python")
-# sys.path.append("./apps")
-from simple_ml import *
+from apps.simple_ml import *
 import numdifftools as nd
 
 import numpy as np
-import needle as ndl
+import python.needle as ndl
 
 
 ##############################################################################

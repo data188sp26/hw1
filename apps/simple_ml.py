@@ -6,8 +6,8 @@ import numpy as np
 
 import sys
 
-sys.path.append("python/")
-import needle as ndl
+#sys.path.append("python/")
+import python.needle as ndl
 
 
 def parse_mnist(image_filename, label_filename):
